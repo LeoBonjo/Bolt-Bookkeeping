@@ -3,6 +3,8 @@
 
 Have you ever wanted to return an item that you've purchased, but couldn't find the receipt? Now, imagine that you've got _hundreds_ of items to return. How will you keep track of your purchases?
 
+<img width="984" alt="Screenshot 2024-09-17 at 9 26 56 AM" src="https://github.com/user-attachments/assets/54b6bb28-fd2d-49a4-98bd-4b9557775dc7">
+
 **Description**
 
 This application is built for costume designers working in the theatre business and it allows them to keep track of all the purchases that they have made for each production they work on.
@@ -21,10 +23,6 @@ Future iterations of this project will include...
   - https://github.com/bhimrazy/receipt-ocr
 - Reformatted dates in purchase table
 - Ability to generate template for adhesive labels from purchase table
-  
-## Frontend Design
-
-<img width="984" alt="Screenshot 2024-09-17 at 9 26 56 AM" src="https://github.com/user-attachments/assets/54b6bb28-fd2d-49a4-98bd-4b9557775dc7">
 
 
 ## Used Technologies
