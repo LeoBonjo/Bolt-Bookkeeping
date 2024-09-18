@@ -12,7 +12,7 @@ const con = mysql.createConnection({
   host: DB_HOST || "127.0.0.1",
   user: DB_USER || "root",
   password: DB_PASS,
-  database: DB_NAME || "my_mvp",
+  database: DB_NAME || "database",
   port: DB_PORT || 3306,
   multipleStatements: true,
 });
