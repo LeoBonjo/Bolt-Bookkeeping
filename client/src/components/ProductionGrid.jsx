@@ -34,7 +34,7 @@ const ProductionGrid = ({ productions, deleteProduction }) => {
                 <Button variant="text" className="text-secondary" onClick={() => handleDeleteClick(id)}>x</Button>
                 </div>
                 <Card.Title>{title}</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">${budget}</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">${Intl.NumberFormat('en-US').format(budget)}</Card.Subtitle>
                 <Card.Text>{description}</Card.Text>
                 <Link to={`/purchases/${id}`} className="custom-link">View Purchases</Link>
               </Card.Body>
