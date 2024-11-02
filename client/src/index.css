@@ -66,7 +66,8 @@ button {
 
 h2 {
   margin-bottom: 20px;
-  text-decoration: underline 10px rgba(255, 166, 0, 0.861);
+  text-decoration: underline 6px rgba(255, 166, 0, 0.861);
+  text-underline-offset: 15px;
 }
 
 h2:after {
@@ -115,6 +116,54 @@ h2:after {
 .delete-prod-btn:hover {
   background-color: black;
 }
+
+.hero {
+  min-height: 40vh;
+  margin: 0 auto;
+  margin-top: -60px;
+  text-align: left;
+  background: #f9d234;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.hero-center {
+  width: 100%;
+}
+.hero-title h1 {
+  margin-bottom: 2rem;
+  padding-top: 30px;
+  font-weight: 700;
+}
+.hero-title p {
+  font-size: 16px;
+  line-height: 1.75;
+  max-width: 35em;
+  margin-bottom: 0px;
+}
+
+.hero-center {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  place-items: center;
+  gap: 4rem;
+}
+@media (max-width: 980px) {
+  .img-container {
+    display: none;
+  }
+}
+
+.hero-img {
+  width: 450px;
+  height: auto;
+
+}
+
+
 
 .purchases-title {
   display: flex;
@@ -292,7 +341,7 @@ h2:after {
 }
 
 .img-container {
-  width: 100%; 
+  width: 220%; 
   display: flex;
   justify-content: center; 
 }
