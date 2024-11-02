@@ -9,7 +9,7 @@ const GlobalNavbar = ({ links }) => {
   return (
     <div>
       <Navbar bg="light" data-bs-theme="light" className="fixed-top">
-        <Container>
+        <Container fluid>
           {/* Add Home link to Navbar.Brand */}
           <Navbar.Brand href="/">
             <FaBoltLightning className="logo" /> BOLT

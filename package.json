@@ -18,6 +18,8 @@
     "dom": "^0.0.3",
     "dotenv": "^16.4.5",
     "express": "~4.16.1",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
     "luxon": "^3.5.0",
     "morgan": "~1.9.1",
     "mysql": "^2.18.1",

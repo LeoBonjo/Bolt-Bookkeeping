@@ -11,6 +11,7 @@ const Homepage = () => {
   const links = [
     { id: 1, label: "Add Production", path: "#add-production" },
     { id: 2, label: "Productions", path: "#production-grid" },
+    { id: 3, label: "Vendor Spending", path: "#vendor-spending" }, 
   ];
 
   const [productions, setProductions] = useState([]);
