@@ -46,7 +46,7 @@ const AddProduction = ({ getProductions }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     handleAddProduction(production);
-    setProduction((production) => EmptyForm);
+    setProduction(EmptyForm);
   };
 
   return (

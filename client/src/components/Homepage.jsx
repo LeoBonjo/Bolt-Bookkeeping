@@ -1,9 +1,10 @@
+import React, { useState, useEffect } from 'react';
 import ProductionGrid from "./ProductionGrid";
 import AddProduction from "./AddProduction";
 import GlobalNavbar from "./GlobalNavbar";
 import Hero from "./Hero";
+import BarChart from './BarChart'; 
 import Footer from "./Footer";
-import { useState, useEffect } from "react";
 
 const Homepage = () => {
   // Create links obj to pass to Global Navbar
@@ -57,6 +58,7 @@ const Homepage = () => {
         deleteProduction={(id) => deleteProduction(id)}
       />
       <AddProduction getProductions={getProductions} />
+      <BarChart />
       <Footer />
     </div>
   );

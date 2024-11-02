@@ -36,7 +36,6 @@ function AddPurchasesForm({ getPurchases, production_id }) {
     reimb_received,
   } = purchase;
   const handleAddPurchase = async () => {
-    console.log("hello");
     try {
       let response = await fetch("/api/purchases", {
         method: "POST",
@@ -67,7 +66,6 @@ function AddPurchasesForm({ getPurchases, production_id }) {
 
   // You'll need a handleSubmit
   const handleSubmit = (e) => {
-    console.log("banana");
     e.preventDefault();
     handleAddPurchase();
     setPurchase((purchase) => EmptyForm);
